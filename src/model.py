@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 def build_model():
 
-    model = RandomForestClassifier(
+    model = RandomForestClassifie(
         n_estimators=100,
         random_state=42
     )
